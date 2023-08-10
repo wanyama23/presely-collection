@@ -18,6 +18,8 @@ h1{
     display: flex;
     align-items: center;
     padding: 20px;
+    
+    /* position: fixed; */
 }
 nav{
     flex: 1;
@@ -30,6 +32,9 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+}
+nav ul li:hover{
+    background: #fff;
 }
 a{
     text-decoration: none;
